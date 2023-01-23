@@ -8,7 +8,7 @@ const optionalArgsObject = {
       m: 'mode'
     },
     default: {
-      p: 8080,
+      p: process.env.port || 8080,
       m: "FORK"
     },
   };
